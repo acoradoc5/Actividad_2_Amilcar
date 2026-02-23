@@ -5,7 +5,7 @@ class Persona{
 	protected : string cui,nombres,apellidos,direccion,fecha_nacimiento;
 	          int telefono;
 	          bool genero;
-	// constructo
+	// constructor
 	protected : 
 	       Persona (){
 	       }
@@ -21,5 +21,8 @@ class Persona{
         	}
 	
 	// metodo
-	void mostrar ();
+	void crear ();
+	void leer ();
+	void actualizar ();
+	void borar ();
 };
